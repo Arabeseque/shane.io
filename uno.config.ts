@@ -19,10 +19,13 @@ export default defineConfig({
       warn: true,
     }),
     presetWebFonts({
+      provider: 'bunny',
       fonts: {
         sans: 'DM Sans',
         serif: 'DM Serif Display',
         mono: 'DM Mono',
+        allura: 'Allura',
+        beth: ['Beth Ellen', 'cursive'],
       },
     }),
   ],
